@@ -1,3 +1,22 @@
+// navbar responsive
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+  const links = navLinks.querySelectorAll('a');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      links.forEach(l => l.classList.remove('navlink-active'));
+      link.classList.add('navlink-active');
+    });
+  });
+});
+
 // const banner = document.querySelector("#banner");
 const tl = gsap.timeline();
 gsap.registerPlugin(ScrollTrigger);
@@ -163,5 +182,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
-  });
+});
   
