@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Torta de Chocolate",
+    "image": "img/cake-choc.jpg",
+    "description": "Bizcochuelo de cacao, relleno con ganache de chocolate y coronado con frutos rojos frescos."
+  },
+  {
+    "name": "Torta Tres Mousses",
+    "image": "img/cake-mousse.jpg",
+    "description": "Capas de mousse de chocolate amargo, con leche y blanco sobre base de bizcochuelo de cacao."
+  },
+  {
+    "name": "Torta Brownie",
+    "image": "img/cake-brownie.jpg",
+    "description": "Brownie intenso de chocolate, cubierto con dulce de leche y crema chantilly.",
+    "type": "torta"
+  },
+  {
+    "name": "Chocotorta",
+    "image": "img/cake-chocotorta.jpg",
+    "description": "Capas de galletitas de chocolate y crema de dulce de leche con queso crema.",
+    "type": "torta"
+  },
+  {
+    "name": "Red Velvet",
+    "image": "img/cake-red-velvet.jpg",
+    "description": "Bizcochuelo rojo aterciopelado con crema de queso y un toque cítrico sutil.",
+    "type": "torta"
+  },
+  {
+    "name": "Balcarce",
+    "image": "img/cake-balcarce.jpg",
+    "description": "Capas de pionono con crema chantilly, dulce de leche, castañas y merengue crocante.",
+    "type": "torta"
+  },
+  {
+    "name": "Carrot Cake",
+    "image": "img/carrot-cake.jpg",
+    "description": "Bizcochuelo especiado con zanahoria, canela y nueces, relleno con crema de queso dulce.",
+    "type": "torta"
+  },
+  {
+    "name": "Pavlova de Frutos Rojos",
+    "image": "img/cake-pavlova.jpg",
+    "description": "Merengue crocante por fuera, suave por dentro, con crema diplomata y frutos rojos frescos.",
+    "type": "postre"
+  },
+  {
+    "name": "Cheesecake de Frutos Rojos",
+    "image": "img/cheesecake.jpg",
+    "description": "Base de galletas de manteca, relleno de queso suave y cobertura de frutos rojos naturales."
+  },
+  {
+    "name": "Key Lime Pie",
+    "image": "img/key-lime-pie.jpg",
+    "description": "Base crocante con crema de lima fresca, decorado con merengue suave y ralladura de lima.",
+    "type": "tarta"
+  },
+  {
+    "name": "Lemon Pie",
+    "image": "img/lemon-pie.jpg",
+    "description": "Masa sablée crujiente, crema de limón suave y merengue italiano tostado.",
+    "type": "tarta"
+  },
+  {
+    "name": "Rogel Clásica",
+    "image": "img/cake-rogel.jpg",
+    "description": "Capas de masa fina y crocante rellenas de dulce de leche, coronado con merengue italiano.",
+    "type": "torta"
+  },
+  {
+    "name": "Torta de Almendras",
+    "image": "img/cake-sablee-almond.jpg",
+    "description": "Base de sablée de almendras, rellena con dulce de leche, crema y frutillas frescas.",
+    "type": "torta"
+  },
+  {
+    "name": "Torta de Nuez y Praliné",
+    "image": "img/cake-nut.jpg",
+    "description": "Masa de nuez, relleno de dulce de leche y crema, terminación con praliné de nuez crocante.",
+    "type": "torta"
+  },
+  {
+    "name": "Tarta de Coco y Dulce de Leche",
+    "image": "img/cake-coco.jpg",
+    "description": "Masa tierna rellena con dulce de leche y cubierta con una capa generosa de coco rallado.",
+    "type": "tarta"
+  },
+  {
+    "name": "Tarta Frutal",
+    "image": "img/cake-fruit.jpg",
+    "description": "Masa sablée con crema pastelera o crema de leche y frutas a elección.",
+    "type": "tarta"
+  },
+  {
+    "name": "Macarons Artesanales",
+    "image": "img/macarons.jpg",
+    "description": "Delicadas tapitas de almendra rellenas con ganache o buttercream de sabores variados.",
+    "type": "galleta"
+  },
+  {
+    "name": "Cookies Temáticas",
+    "image": "img/cookies.jpg",
+    "description": "Galletas de masa sablée decoradas artesanalmente para eventos y celebraciones.",
+    "type": "galleta"
+  },
+  {
+    "name": "Tortas Temáticas",
+    "image": "img/cake-birth.jpeg",
+    "description": "Diseños personalizados para eventos y celebraciones. Sabores y decoración a elección.",
+    "type": "galleta"
+  }
+]
