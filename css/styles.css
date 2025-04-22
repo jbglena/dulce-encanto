@@ -25,10 +25,10 @@ h1, h2, h3 {
   margin: 0;
 }
 h2{
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 h3{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 a {
@@ -54,13 +54,8 @@ a {
   background-color: white;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-color);
+.logo img {
+  width: 35px;
 }
 
 .nav-links {
@@ -219,6 +214,7 @@ a {
 .about-content p {
   margin-bottom: 1.2rem;
   line-height: 1.8;
+  text-align:justify;
 }
 /* cakes-cookies animation section */
 .animation-section {
@@ -318,8 +314,8 @@ a {
 }
 
 .product-content p {
-  margin-bottom: 1.5rem;
-  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  /* line-height: 1.5; */
 }
 
 .whatsapp-button {
@@ -392,26 +388,32 @@ a {
     text-align: center;
     gap: 3rem;
   }
-  .hero-image img {
-    width: 30%;
-    right: auto;
-    top: 35%;
+  .hero-content{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
   }
-  
   .hero-content, .about-content {
     max-width: 100%;
   }
-  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content h2 {
+    font-size: 1.2rem;
+  }
   .decorator-line {
     margin: 0 auto 2rem;
   }
-  
   .about-content h3 {
     justify-content: center;
   }
-  
   .about-image img {
     transform: rotate(0);
+  }
+  .responsive-hide{
+    display: none;
   }
 }
 
@@ -429,50 +431,19 @@ a {
   .animation-section{
     display: none;
   }
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
-  
-  .hero-content h2 {
-    font-size: 1.2rem;
-  }
-  .hero-image img {
-    width: 40%;
-    right: auto;
-    top: 30%;
-  }
-  
   .catalog-section, .about-section, .contact-section {
     padding: 5rem 3%;
   }
-  
   .products-grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
 @media (max-width: 576px) {
-
-  .hero-content h1 {
-    font-size: 2.5rem;
-    margin-top: 15%;
-    margin-bottom: 1rem;
-  }
-  .hero-image img {
-    width: 45%;
-    right: auto;
-    top: 45%;
-  }
-  .cta-container{
-    left:27%;
-    top: 65%;
-  }
-
   .category-button {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
   }
-  
   .contact-cards {
     grid-template-columns: 1fr;
   }
